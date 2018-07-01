@@ -1,0 +1,84 @@
+
+/*make parents relative or absolute*/
+
+#monsterBox{
+    height: 800px;
+    width: 400px;
+    position:relative;
+    left: 30%;
+    top: 10px;
+    background-color:red;
+}
+#monsterBody{
+    margin:auto;
+    height:300px;
+    width:200px;
+    background-color:black;
+    position: relative;
+    top:-250px;
+}
+#monsterRightArm{
+    height:250px;
+    width:50px;
+    background-color:black;
+    position: relative;
+    left:300px;
+    top:-550px;
+}
+#monsterLeftArm{
+    height:250px;
+    width:50px;
+    background-color:black;
+    position: relative;
+    left:50px;
+}
+#monsterLeftLeg{
+    height:250px;
+    width:50px;
+    background-color:black;
+    position: relative;
+    left:100px;
+    top:-750px;
+}
+#monsterRightLeg{
+    height:250px;
+    width:50px;
+    background-color:black;
+    position: relative;
+    left:250px;
+    top:-500px;
+}
+#monsterHead{
+    margin:auto;
+    height:150px;
+    width:150px;
+    background-color:black;
+}
+#monsterEye{
+    margin:auto;
+    height:50px;
+    width:50px;
+    background-color:white;
+    position: relative;
+}
+#monsterIris{
+    margin:auto;
+    height:30px;
+    width:30px;
+    background-color:cyan;
+    position: relative;
+}
+#monsterPupil{
+    margin:auto;
+    height:20px;
+    width:20px;
+    background-color:black;
+    position: relative;
+}
+#monsterMouth{
+    margin:auto;
+    width: 100px;
+    height: 35px;
+    background-color:red;
+    position: relative;
+}

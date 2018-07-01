@@ -1,0 +1,12 @@
+<h3>Character List</h3>
+
+<input [(ngModel)]="filterBy" />
+
+<mat-list>
+  <mat-list-item *ngFor="let character of characters | characterFilter : filterBy">
+    <img mat-list-avatar [src]="character.avatar" >
+    <p matLine>{{character.name | uppercase}}</p>
+    <p matLine>{{character.gender}} -- {{character.birth_year}}</p>
+    <p matLine>{{character.force}}</p>
+  </mat-list-item>
+</mat-list>

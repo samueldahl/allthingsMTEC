@@ -1,0 +1,26 @@
+.bottomMargin{
+    margin-bottom: 15px; color:blue;
+
+}
+
+.colorRed .something{
+    color:red;
+}
+
+.something{
+    margin-bottom: 15px;
+    color:red;
+    background-color: blue;
+}
+
+#firstNameLabel {
+    color:dodgerblue;
+}
+
+*{
+    text-align:center;
+}
+
+p[label="dank"]{
+    color:red;
+}

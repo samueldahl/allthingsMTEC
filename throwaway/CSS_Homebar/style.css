@@ -1,0 +1,36 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+.header{
+    width: 100%;
+    height: 60px;
+    background-color: white;
+    border-bottom: 1px solid #7b848b ;
+}
+.centerbox{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+}
+.logoimage{
+    width: 108px;
+}
+.leftlogo{
+    display: flex;
+    align-items: center;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+}
+.navlink, .memberbtn{
+    text-decoration: none;
+    color: #757575 ;
+    padding: 9px;
+    }

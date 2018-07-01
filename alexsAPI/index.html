@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>API</title>
+
+    <style>
+        .api-box{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        .api-content-box{
+            width: 380px;
+            height: 255px;
+            margin-left: 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+            background-color: #ccc;
+            text-align: center;
+        }
+        .weather-box{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+        }
+        .weather-box > div{
+            margin-bottom: -20px;
+        }
+        .condition{
+            margin-top: -15px;
+        }
+    </style>
+</head>
+<body onload="getNoris(); getQuote();">
+
+    <div class="api-box">
+
+        <div class="weather-box api-content-box">
+            <img id="weather-picture" src="">
+            <div class="condition"></div>
+            <div class="temp"></div>
+            <div class="wind-speed"></div>
+
+            <input class="input-city" placeholder="City">
+            <button onclick="getCity()">Go</button>
+        </div>
+
+        <div class="quote-box api-content-box">
+
+            <div class="quote"></div>
+
+            <button class="get-quote">GET QUOTE</button>
+
+        </div>
+
+        <div class="noris-box api-content-box">
+
+            <img src="" id="noris-picture">
+
+            <div class="noris-joke"></div>
+
+            <button class="get-noris">GET CHUCK NORIS JOKE</button>
+
+        </div>
+
+    </div>
+
+<script src="jquery-3.2.1.min.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>

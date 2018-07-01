@@ -1,0 +1,25 @@
+body {
+    padding: 30px;
+}
+header {
+    background: lightskyblue;
+}
+section {
+    background: steelblue;
+    width: 75%;
+    float: left;
+}
+article {
+    background: white;
+    margin: 0 0 2% 0;
+}
+aside {
+    background: cadetblue;
+    width: 25%;
+    float: right;
+}
+header, article, section, .sidebar {
+    padding: 1rem;
+    /*box-sizing: border-box;*/
+    /*Adjusting the numbers to make the math work is another way. For instance making the widths of the columns 4% narrower and using 2% for the padding instead.*/
+}

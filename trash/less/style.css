@@ -1,0 +1,10 @@
+.fullBody {
+  display: flex;
+  width: 100%;
+}
+.photo {
+  width: 600px;
+}
+a {
+  color: #FFFFFF;
+}
